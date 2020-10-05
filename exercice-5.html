@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mon nouveau super titre</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <!-- style de mon table-->
+    <style>
+      table {
+        border-collapse: collapse;
+      }
+
+      th,
+      td {
+        border: 1px solid black;
+      }
+
+      tfoot {
+        text-align: center;
+      }
+
+      .bordure0 {
+        border: 0px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <td class="bordure0" colspan="4">Mon compte BNP</td>
+        </tr>
+      </thead>
+      <tr>
+        <th>Date</th>
+        <th>Libellé</th>
+        <th>Crédit</th>
+        <th>Débit</th>
+      </tr>
+      <tbody>
+        <tr>
+          <td>01/05/2016</td>
+          <td>Paye</td>
+          <td>1500</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>01/05/2016</td>
+          <td>Course de la semaine</td>
+          <td>0</td>
+          <td>152,30</td>
+        </tr>
+        <tr>
+          <td>01/05/2016</td>
+          <td>Croquette chat-poulpe</td>
+          <td>0</td>
+          <td>23,80</td>
+        </tr>
+        <tr>
+          <td>01/05/2016</td>
+          <td>Loyer</td>
+          <td>0</td>
+          <td>700</td>
+        </tr>
+        <tr>
+          <td>01/05/2016</td>
+          <td>Internet</td>
+          <td>0</td>
+          <td>39,90</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="2">Total</td>
+          <td colspan="2">575,40</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
